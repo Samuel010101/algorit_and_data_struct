@@ -8,7 +8,7 @@
 var vector = [3, 2, 1, 6, 7, 5, 10, 8, 9, 4];
 var arrLength = vector.length
 var aux;
-var result;
+// var result;
 
 const insercion = () => {
 

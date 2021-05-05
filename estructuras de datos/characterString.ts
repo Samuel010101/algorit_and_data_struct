@@ -31,36 +31,36 @@
 // - El número menor encontrado en el array
 // - El valor promedio de entre los números de todo el array
 
-var mi = 0;
-var ma = 0;
-var totalSum = 0;
-var totalNum = 0;
-var average = 0;
-var arr = [];
-const findMinMax = (arr) => {
-    var arrLength = arr.length
-    var sorted = arr.sort();
-    console.log(sorted)
-    if(mi = arr[0]){
-        console.log(mi +' This is min number')
-   }
+// var mi = 0;
+// var ma = 0;
+// var totalSum = 0;
+// var totalNum = 0;
+// var average = 0;
+// var arr = [];
+// const findMinMax = (arr) => {
+//     var arrLength = arr.length
+//     var sorted = arr.sort();
+//     console.log(sorted)
+//     if(mi = arr[0]){
+//         console.log(mi +' This is min number')
+//    }
     
-   for (var i=0; i <= arrLength; i++){
-        ma = arr[i]
+//    for (var i=0; i <= arrLength; i++){
+//         ma = arr[i]
 
-        if((i + 1) == (arrLength)){
-            console.log(ma +' This is max number')
-    }
-   }
+//         if((i + 1) == (arrLength)){
+//             console.log(ma +' This is max number')
+//     }
+//    }
     
-    for (var ar in arr) {
-        totalSum += arr[ar]   
-   } 
+//     for (var ar in arr) {
+//         totalSum += arr[ar]   
+//    } 
 
-   totalNum = arr.length
+//    totalNum = arr.length
    
-   average = totalSum / totalNum
-   console.log(average + ' This the average')
-}
-findMinMax([4.3, 5.5, 7.1, 7.3, 1.5, 2.1, 2.7, 3.1, 3.3, 3.7])
+//    average = totalSum / totalNum
+//    console.log(average + ' This the average')
+// }
+// findMinMax([4.3, 5.5, 7.1, 7.3, 1.5, 2.1, 2.7, 3.1, 3.3, 3.7])
 
